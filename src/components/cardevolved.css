@@ -1,0 +1,40 @@
+.cardTopSectionEvolved {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 186px;
+  width: 371px;
+}
+
+.cardTopSectionEvolved:hover {
+  height: 373px;
+  transition: 2s ease;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  z-index: 1;
+}
+
+.cardBottomSectionEvolved {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 107px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 187px;
+  width: 371px;
+}
+
+.cardBottomSectionEvolved:hover {
+  height: 373px;
+  transition: 2s ease;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  z-index: 1;
+}

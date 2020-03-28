@@ -1,19 +1,20 @@
-# Technigo React Starter App
+# Creating a react component
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+Create a react card component with a onClick event that triggers a state change to rerender data using conditional rendering.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+Styling and CSS effects should follow this design. [Design](https://www.figma.com/file/WQlcE8c17JEZ1mgMEBw71i/Card-Component-Lab?node-id=0%3A1)
 
-## Usage
+You should create a card component that uses props to look differently depending on title, subtitle, emoji, primary and secondary color, button color, button text color and button text.
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
 
-Alternatively, if you don't want a new git repo on your account;
+## The problem / Solution
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Stored each value for each design as *objects* inside *array* called **settings** in *App.js* so it´s possible to map  thru the array when mounting each card.
+
+Created a *Card.js* component then using each *prop* to create the first design and display each title/text strings and passing props as inline styles on proper element.
+
+Created a *state* called **clicked** and used conditional rendering do change from first design to the next design when button is clicked.
+
+Using *position: absolute* to be able to create the CSS hover effects on each part of the second design.
+
+## View it live
