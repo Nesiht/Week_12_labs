@@ -18,3 +18,4 @@ Created a *state* called **clicked** and used conditional rendering do change fr
 Using *position: absolute* to be able to create the CSS hover effects on each part of the second design.
 
 ## View it live
+[Link](https://peaceful-ritchie-3390a6.netlify.com/)
